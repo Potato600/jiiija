@@ -26,7 +26,7 @@ html {
     src: local('url(Angst-Normal'),
     url(font/Angst-Normal.woff);
     font-display: block;}
-    
+
 body {
     display: flex;
     flex-direction: column;
@@ -242,14 +242,8 @@ input {
 input:focus{
     outline: none;
 }
-button {
-    color: white;
-    background-color: black;
-    border-radius: 15px;
-    border: 1px solid white;
-    margin: 10px auto;
-    width: 120px;
-}
+
+
 form p {
     color: white;
     width: 50%;

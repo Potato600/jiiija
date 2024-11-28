@@ -1,0 +1,262 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Angst-Normal'; 
+    src: local('url(Angst-Normal'),
+    url(font/Angst-Normal.woff); 
+    background-color: #000000;
+  }
+
+h2 {
+    color: #fff;
+  }
+
+p {
+    color: #fff;
+}
+
+/*jija*/
+  
+.header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 50px;
+}
+
+.header-title {
+    margin-bottom: 50px;
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.header-suptitle { 
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+
+/*navbar*/
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background: transparent;
+}
+
+.navbar .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    backdrop-filter: blur(10px);
+    padding-top: 10px;
+}
+
+.navbar .menu a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    transition: transform 0.4s ease, color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.log {
+    width: 100px;
+}
+
+.zag {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.prod {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    }
+    
+.card {
+    width: 320px;
+    padding: 30px;
+}
+
+
+.center-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.867);
+    border: 2px solid rgba(255, 255, 255, 0.549);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Angst-Normal'
+}
+.center-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);}
+
+.container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 50px;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    float: right;
+    text-indent: 100px;
+}
+.goga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.proiz {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding-left: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    float:left;
+    text-indent: 100px;
+}
+
+.lop {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding-right: 50px;
+    float:right;
+}
+
+.serkan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 60px;
+    float:left;
+}
+
+.eda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    float:right;
+    text-indent: 100px;
+}
+
+.melo {
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+input {
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input:focus{
+    outline: none;
+}
+button {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin: 10px auto;
+    width: 120px;
+}
+form p {
+    color: white;
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+.date {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    border-bottom:1px solid white;
+}
+.date input{
+    border: none;
+}

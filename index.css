@@ -21,7 +21,12 @@ html {
     max-width: 100%;
     height: auto;
   }
-
+  @font-face {
+    font-family:'Angst-Normal'; 
+    src: local('url(Angst-Normal'),
+    url(font/Angst-Normal.woff);
+    font-display: block;}
+    
 body {
     display: flex;
     flex-direction: column;

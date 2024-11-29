@@ -276,3 +276,15 @@ form p {
 .date input{
     border: none;
 }
+.gl {
+    margin-left: 200px;
+}
+.vt {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

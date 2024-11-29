@@ -294,6 +294,7 @@ hr{
     width: 800px;
     height: 1px;
     margin: auto;
+    margin-top: 50px;
 }
 
 .footer {
@@ -305,9 +306,7 @@ hr{
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: normal;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.4s ease, color 0.3s ease; 
 }
 .afooter:hover {
     transform: scale(1.1);
@@ -320,4 +319,13 @@ hr{
 }
 .ljto:hover {
     transform: scale(1.05);
+}
+
+.coop {
+    color: rgba(255, 255, 255, 0.756);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
 }

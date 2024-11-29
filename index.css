@@ -125,7 +125,8 @@ p {
     
 .card {
     width: 320px;
-    padding: 30px;transition: transform 0.4s ease, color 0.3s ease;
+    padding: 30px;
+    transition: transform 0.4s ease, color 0.3s ease;
 }
 .card:hover {
     transform: scale(1.05);
@@ -287,4 +288,36 @@ form p {
     margin-left: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+hr{
+    color: #fff;
+    width: 800px;
+    height: 1px;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 70px;
+}
+
+.afooter {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    transition: transform 0.3s ease-in-out; 
+}
+.afooter:hover {
+    transform: scale(1.1);
+}
+
+.ljto {
+    padding: 50px;
+    align-self: center;
+    transition: transform 0.4s ease, color 0.3s ease;
+}
+.ljto:hover {
+    transform: scale(1.05);
 }

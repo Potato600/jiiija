@@ -125,9 +125,11 @@ p {
     
 .card {
     width: 320px;
-    padding: 30px;
+    padding: 30px;transition: transform 0.4s ease, color 0.3s ease;
 }
-
+.card:hover {
+    transform: scale(1.05);
+}
 
 .center-button {
     margin-top: 20px;
@@ -227,6 +229,8 @@ p {
     color: #ffffff;
     text-align: center;
 }
+
+/*форма*/
 
 form {
     background-color: black;

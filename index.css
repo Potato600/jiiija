@@ -26,9 +26,9 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-style: normal;
+    font-size: 30px;
     background-color: #000000;
   }
 
@@ -52,18 +52,21 @@ p {
 
 .header-title {
     margin-bottom: 50px;
-    font-size: 35px;
-    line-height: 70px;
-    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 700;
+    font-style: normal;
     color: #ffffff;
+    width: 500px;
 }
 
 .header-suptitle { 
-    font-size: 25px;
+    font-size: 15px;
     line-height: 37px;
     font-weight: 200;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
+    width: 400px;
 }
 
 /*navbar*/
@@ -89,14 +92,20 @@ p {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: 200;
     transition: transform 0.4s ease, color 0.3s ease;
 }
 
 .navbar .menu a:hover {
     color: #fff;
     transform: scale(1.05);
+}
+
+.header-img-wripper {
+    display: flex;
+    justify-content: center;
+    align-items: right;
 }
 
 .log {
@@ -106,7 +115,8 @@ p {
 .zag {
     margin: 50px;
     font-size: 20px;
-    font-weight: normal;
+    line-height: 30px;
+    font-weight: 700;
     color: #ffffff;
 }
 
@@ -134,12 +144,11 @@ p {
     color: rgba(255, 255, 255, 0.867);
     border: 2px solid rgba(255, 255, 255, 0.549);
     border-radius: 10px;
-    font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-style: normal;
+    font-size: 20px;
 }
 .center-button:hover {
     background-color: rgba(255, 255, 255, 0.15);}
@@ -164,7 +173,6 @@ p {
     color: #ffffff;
     text-align: justify;
     float: right;
-    text-indent: 100px;
 }
 .goga {
     display: flex;
@@ -185,7 +193,6 @@ p {
     color: #ffffff;
     text-align: justify;
     float:left;
-    text-indent: 100px;
 }
 
 .lop {
@@ -218,7 +225,6 @@ p {
     color: #ffffff;
     text-align: justify;
     float:right;
-    text-indent: 100px;
 }
 
 .melo {
@@ -276,6 +282,9 @@ form p {
 }
 .gl {
     margin-left: 200px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
 }
 .vt {
     font-size: 16px;
@@ -294,9 +303,14 @@ hr{
     margin-top: 50px;
 }
 
+ /*Подвал*/
+
 .footer {
     text-align: center;
     padding: 70px;
+    font-size: 15px;
+    line-height: 37px;
+    font-weight: 200;
 }
 
 .afooter {
@@ -326,3 +340,10 @@ hr{
     font-family: "Montserrat", sans-serif;
     margin: auto;
 }
+
+.video {
+    display: block;
+    margin: auto;
+    padding: 50px;       
+}
+
